@@ -148,6 +148,7 @@ defaults:
         -
           label: Categories
           url: /tabs/categories/
+
   -
     scope:
       path: tabs

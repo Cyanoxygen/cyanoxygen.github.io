@@ -28,3 +28,8 @@
   icon: "fas fa-info"
   path: tabs
   url: about
+-
+  name: "Friends"
+  path: tabs
+  url: friends
+  icon: "fas fa-friends"
