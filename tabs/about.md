@@ -72,3 +72,19 @@ title: 关于我
 你们对我非常重要。我不知道我做的如何，但我一定会尽力维护好我和你们之间的关系。我不希望任何不好的事情发生。
 
 
+# 特别感谢
+
+我非常感谢你们对我的支持。
+
+- 一位名字不便透漏的朋友💕。
+- [kj415j45](https://github.com/kj415j45)
+- [billchenchina](https://github.com/billchenchina)
+- [X3R5iZ](https://github.com/X3R5iZ)
+- [Oniya](https://github.com/oniyakun)
+- [My Aim Sucks](https://github.com/VergeDX)
+- Kunihiro
+- SMSF
+- Lore
+- Xiaoxi654
+- Kotomei
+- 还有更多。
