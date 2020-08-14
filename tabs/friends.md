@@ -61,7 +61,7 @@ img.avatar-img:hover {
 
 ### 我的友链信息
 
-Name: `Reliena's Garage`  
+Name: `Reliena’s Garage`  
 Avatar: `https://www.gravatar.com/avatar/6765191a1ca4490345e4bf19b78003a3?s=512`  
 Motto: `Experience more, write more.`  
 URL: `https://blog.cyanoxygen.xyz`  
