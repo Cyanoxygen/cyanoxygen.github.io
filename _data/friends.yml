@@ -4,12 +4,27 @@
   slogan: A noob student
   url: https://okinawa.loli.land/
 -
-  name: Billchenchina
-  avatar: https://gravatar.com/avatar/1541e0db587328514c8a2d34de5c5519?s=256
-  slogan: Billchen 的个人技术博客
-  url: https://billchen.bid
--
   name: Cyunrei
   avatar: /assets/img/avatars/cyunrei.jpg
   slogan: Hi! 这里是 Cyunrei!
   url: https://blog.cyunrei.moe/
+- 
+  name: 1A23 Studio
+  avatar: /assets/img/avatars/1a23.jpg
+  slogan: We create.
+  url: https://1a23.com/
+-
+  name: Putingspudding
+  avatar: /assets/img/avatars/pudding.jpg
+  slogan: Pwdding?
+  url: https://putinspudding.github.io/
+-
+  name: FlyingSky
+  avatar: /assets/img/avatars/flyingsky.jpg
+  slogan: 来自 2.5 次元的咸鱼一枚
+  url: https://blog.fsky7.com/
+-
+  name: Billchenchina
+  avatar: https://gravatar.com/avatar/1541e0db587328514c8a2d34de5c5519?s=256
+  slogan: Billchen 的个人技术博客
+  url: https://billchen.bid
