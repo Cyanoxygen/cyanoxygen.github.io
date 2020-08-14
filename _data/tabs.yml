@@ -32,4 +32,4 @@
   name: "Friends"
   path: tabs
   url: friends
-  icon: "fas fa-friends"
+  icon: "fas fa-user-friends"

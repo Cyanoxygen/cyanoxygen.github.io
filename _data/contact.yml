@@ -11,6 +11,14 @@
   type: twitter
   icon: 'fab fa-twitter'
 -
+  type: discord
+  icon: 'fab fa-discord'
+  url: https://cykc.xyz/d
+-
+  type: discord
+  icon: 'fab fa-telegram'
+  url: https://t.me/CyanCh
+- 
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab

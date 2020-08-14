@@ -1,8 +1,26 @@
 ---
 title: 关于我
 ---
+<style>
+img.avatar-img {
+    width: 60pt;
+    height: 60pt;
+    border-style: solid;
+    border-color: #454545ae;
+    box-shadow: 0 0 6px 3px #111;
+    border-radius: 50%;
+}
+img.avatar-img:hover {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+</style>
 
-## Hello, this is Reliena, formally Cyanoxygen.
+<img src="/assets/img/avatar.jpg" class="avatar-img">
+
+**Hello, this is Reliena, formally Cyanoxygen.**
 
 是个准技术宅。喜欢运维，喜欢折腾，喜欢音游，喜欢苏打水（农夫山泉白桃味赛高！）。
 
