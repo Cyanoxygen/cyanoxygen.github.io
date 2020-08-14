@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "为树莓派 4 安装纯净的 arm64 Debian GNU/Linux 系统"
-date: 2020-04-09
-author: Cyanoxygen
-cover: '/assets/img/banner.jpg'
-tags: Debian Raspberry Pi
+date: 2020-04-09 16:44:00 +0800
+author: Reliena
+categories: [Linux, RaspberryPi]
+tags: [debian, raspberrypi, rpi, linux]
 ---
 
 # 为树莓派 4 安装 arm64 的 Debian
 
-[raspbian-download]:https://www.raspberrypi.org/downloads/raspbian/
+[raspbian-download]:https://www.raspberrypi.org/downloads/raspberry-pi-os/
 [forumlink_sound]:https://www.raspberrypi.org/forums/viewtopic.php?t=263942
 
 树莓派 4 也出来好久了，最近有攒下来的零花钱可以买了，于是就买了一块。但因为我是 Debian Puriest, 所以不是很喜欢 Raspbian ，刚巧树莓派 4 也有了 64 位内核，就准备折腾为它安装一个纯净的 Debian 。话不多说，立即开始。
@@ -71,7 +71,14 @@ tags: Debian Raspberry Pi
 ```shell
 sudo raspi-config
 ```
-你一定需要做的事情就是设置 Wi-Fi 区域。Wi-Fi 区域如果不被设置，在安装完系统之后很可能无法工作。你也可以进行你想做的其他配置，比如配置声音输出等。**如果你没有连接以太网，请使用 `raspi-config` 配置好你的 Wi-Fi 连接！**
+
+你一定需要做的事情就是设置 Wi-Fi 区域。Wi-Fi 区域如果不被设置，在安装完系统之后很可能无法工作:
+  1. 选择 `Network Settings`
+  2. 选择 `Wireless LAN`
+  3. 此时它会提示你设置 Wi-Fi 区域。
+
+你也可以进行你想做的其他配置，比如配置声音输出等。  
+**如果你没有连接以太网，请使用 `raspi-config` 配置好你的 Wi-Fi 连接！**
 
 配置完毕，接下来更换镜像源（如果需要），然后升级系统：
 
@@ -394,7 +401,7 @@ sys 	0m0.014s
 
 ## 后日谈
 
-~~我不会告诉你这个词从哪里学到的~~ 不同的人有不同的需求，我可以把我遇到的问题一一列出：
+~~我不会告诉你这个词从哪里学到的（~~ Debian 算是装完了，但是想要的东西还是没有，怎么办？不同的人有不同的需求，我可以把我遇到的问题一一列出：
 
 ### Q: 我想输出声音，怎么办？
 
@@ -448,6 +455,10 @@ A：确实可以做到。对内核模块 `snd_bcm2835` 指定参数即可让声�
   snd_bcm2835.enable_headphones=1 snd_bcm2835.enable_hdmi=1 snd_bcm2835.enable_compat_alsa=0
   ```
 - 重启树莓派，执行 `aplay -lL`，你会发现输出设备变成了一个。
+
+### Q: 蓝牙在哪里呀？怎么才能让蓝牙工作呢？
+
+A: 关于蓝牙的更多信息，请浏览[这篇后续文章](/posts/rpi-debian-bluetooth/)。
 
 ### Q：树莓派 4B 的千兆网卡是真的么？
 
