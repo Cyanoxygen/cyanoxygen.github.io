@@ -59,7 +59,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Lato','PingFang SC', 'Dengxian', 'Microsoft Yahei', 'Noto Sans CJK SC', sans-serif;
 }
 
 /*--- sidebar layout ---*/
@@ -1514,4 +1514,8 @@ table {
   #panel-wrapper {
     margin-left: 41px;
   }
+}
+
+code, kbd, pre, samp {
+  font-family: Inconsolata,SFMono-Regular,"Source Code Pro",Consolas,"Liberation Mono","Courier New",monospace;
 }
