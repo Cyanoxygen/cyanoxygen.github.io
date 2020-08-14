@@ -24,6 +24,11 @@
   slogan: Hi! 这里是 Cyunrei!
   url: https://blog.cyunrei.moe/
 -
+  name: Piggy’s Blog
+  avatar: /assets/img/avatars/piggymoe.jpg
+  slogan: Piggy!
+  url: https://piggy.moe/
+-
   name: Billchenchina
   avatar: https://gravatar.com/avatar/1541e0db587328514c8a2d34de5c5519?s=256
   slogan: Billchen 的个人技术博客
@@ -48,3 +53,8 @@
   avatar: https://secure.gravatar.com/avatar/bedbc698e8dbf819a84b440b9ad0ee8e?s=256
   slogan: Misaka13514的小站
   url: https://moeneko.xyz/
+-
+  name: Sharzy’s Random Blog
+  avatar: /assets/img/avatars/sharzy.png
+  slogan: Miscellaneous random stuff
+  url: https://sharzy.in
