@@ -36,6 +36,8 @@ img.avatar-img {
 {% endfor %}
 
 <br/>
+## 加入我们
+
 如果你也想成为这里的一员，欢迎发送邮件至 [i@cyanoxygen.xyz](mailto:i@cyanoxygen.xyz) ，或在下方评论区留言。  
 
 你需要提供：
