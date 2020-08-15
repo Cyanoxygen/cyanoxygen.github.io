@@ -28,7 +28,7 @@ OSError: [WinError 10013] An attempt was made to access a socket in a way forbid
 在几个小时的搜索之后，发现 [Stack Overflow 上也有人出现了相同的问题](https://stackoverflow.com/a/54727281)。该问题指出，使用 Docker for Windows 时不能绑定端口，无法正常使用容器。  
 其中优质回答将问题矛头直指 Hyper-V，引用了一个 [GitHub issue](https://github.com/docker/for-win/issues/3171#issuecomment-459205576)，表示 Hyper-V 在启用之后向系统预留了一大堆端口，可以使用下面的命令查看：
 
-```cmd
+```
 netsh int ipv4 show excludedportrange protocol=tcp
 ```
 
@@ -58,13 +58,14 @@ Hyper-V 你在干嘛？预留这么多端口作甚？你要知道我们都没法
 
 或者使用命令行，如果你只开启了 Hyper-V：
 
-```cmd
+```
 dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
 ```
 
 禁用完成会提示重启。重启电脑，然后预留你经常使用的端口：
 
 假设你的常用端口范围是 `1234` - `2345`：
+
 ```
 netsh int ipv4 add excludedportrange protocol=tcp startport=1234 numberofports=1112
 ```
@@ -90,7 +91,7 @@ netsh int ipv4 add excludedportrange protocol=tcp startport=1234 numberofports=1
 
 文章里有一个脚本，脚本检测 Hyper-V 开启之后即修改动态端口范围，你可以根据需求选择需要的部分执行：
 
-```cmd
+```
 rem Modify Dynamic Port Range for Development Users
 dism /online /get-features | find /i "Microsoft-Hyper-V" && (
 rem Modify Dynamic Port Range
@@ -107,7 +108,7 @@ goto :eof
 
 如果你想撤销更改，或者你已不再使用 Hyper-V，可以使用脚本的另一部分还原设置：
 
-```cmd
+```
 rem Set range to default
 start /wait "" netsh int ipv4 set dynamicport tcp start=49152 num=16384
 start /wait "" netsh int ipv4 set dynamicport udp start=49152 num=16384
