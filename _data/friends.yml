@@ -1,6 +1,6 @@
 -
   name: kj415j45's space
-  avatar: https://gravatar.com/avatar/190d3812915482139b1839a8235ca6de?s=256
+  avatar: /assets/img/avatars/kj415j45.jpg 
   slogan: A noob student
   url: https://okinawa.loli.land/
 - 
@@ -35,7 +35,7 @@
   url: https://piggy.moe/
 -
   name: Billchenchina
-  avatar: https://gravatar.com/avatar/1541e0db587328514c8a2d34de5c5519?s=256
+  avatar: /assets/img/avatars/billchen.jpg
   slogan: Billchen 的个人技术博客
   url: https://billchen.bid
 -
@@ -45,7 +45,7 @@
   url: https://blog.batkiz.com/
 -
   name: MiaoTony’s Blog
-  avatar: https://cdn.jsdelivr.net/gh/miaotony/miaotony.github.io/medias/avatar.jpg
+  avatar: /assets/img/avatars/miaotony.jpg
   slogan: 仰望星空，脚踏实地，未来可期
   url: https://miaotony.xyz/
 -
@@ -55,7 +55,7 @@
   url: https://benpigchu.com/
 -
   name: Misaka13514
-  avatar: https://secure.gravatar.com/avatar/bedbc698e8dbf819a84b440b9ad0ee8e?s=256
+  avatar: /assets/img/avatars/misaka13514.jpg
   slogan: Misaka13514的小站
   url: https://moeneko.xyz/
 -
@@ -63,3 +63,4 @@
   avatar: /assets/img/avatars/sharzy.png
   slogan: Miscellaneous random stuff
   url: https://sharzy.in
+
