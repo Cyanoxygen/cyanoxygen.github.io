@@ -50,7 +50,8 @@ img.avatar-img:hover {
 
 ## 加入我们
 
-如果你也想成为这里的一员，欢迎发送邮件至 [i@cyanoxygen.xyz](mailto:i@cyanoxygen.xyz) ，或在下方评论区留言。  
+如果你也想成为这里的一员，欢迎[开新的 Issue](https://github.com/Cyanoxygen/cyanoxygen.github.io/issues/new)，或者在下方评论区留言。
+因为 Yandex Mail 会时不时吞掉邮件，所以最终放弃了邮箱申请。
 
 你需要提供：
 
